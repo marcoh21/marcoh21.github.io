@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Basic Website</title>
+  <title>My Cool Old Website</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background-color: #f0f0f0;
-      color: #333;
+      background-color: #FFFFCC;
+      color: black;
+      font-family: "Times New Roman", serif;
     }
-    header, footer {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-      text-align: center;
+    table {
+      width: 90%;
+      margin: auto;
+      border: 1px solid black;
+      background-color: #FFFFFF;
     }
-    main {
-      margin: 2rem auto;
-      max-width: 800px;
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    td {
+      padding: 10px;
+      border: 1px dotted #000;
     }
     h1 {
-      margin-top: 0;
+      color: blue;
+      text-align: center;
+    }
+    .marquee {
+      color: red;
+      font-weight: bold;
+      text-align: center;
+    }
+    a {
+      color: blue;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Welcome to My Website</h1>
-  </header>
+  <h1>Welcome to My Website!</h1>
 
-  <main>
-    <h2>About</h2>
-    <p>This is a simple website made with basic HTML and CSS. You can expand it with images, links, or JavaScript for interactivity.</p>
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left">Check out my awesome old-school homepage!</marquee>
+  </div>
 
-    <h2>Contact</h2>
-    <p>Email: example@example.com</p>
-  </mai
+  <table>
+    <tr>
+      <td width="20%" valign="top">
+        <b>Navigation</b><br>
+        <a href="#">Home</a><br>
+        <a href="#">About Me</a><br>
+        <a href="#">Guestbook</a><br>
+        <a href="#">Links</a><br>
+      </td>
+      <td width="80%" valign="top">
+        <h2>About This Page</h2>
+        <p>Hello and welcome to my personal homepage! I built this using HTML just like they used to in the good ol' days.</p>
+        <p>There's no CSS frameworks here — just tables, Times New Roman, and pure HTML soul.</p>
+      </td>
+    </tr>
+  </table>
+
+  <center>
+    <p><i>© 2001 MyCoolWebsite.com | Best viewed in Netscape Navigator</i></p>
+  </center>
+
+</bo
